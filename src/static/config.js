@@ -18,12 +18,13 @@ System.config({
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.0.1",
     "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.0.2",
     "aurelia-pal-browser": "npm:aurelia-pal-browser@1.0.0-beta.1.0.3",
-    "babel": "npm:babel-core@5.8.33",
-    "babel-runtime": "npm:babel-runtime@5.8.29",
+    "babel": "npm:babel-core@5.8.35",
+    "babel-runtime": "npm:babel-runtime@5.8.35",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.13",
-    "handlebars": "github:components/handlebars.js@2.0.0",
+    "handlebars": "github:components/handlebars.js@4.0.5",
+    "hbs": "github:davis/plugin-hbs@1.2.1",
     "jquery": "github:components/jquery@2.2.0",
     "jquery-ui": "github:components/jqueryui@1.11.4",
     "json": "github:systemjs/plugin-json@0.1.0",
@@ -35,6 +36,9 @@ System.config({
     "url": "github:jspm/nodelibs-url@0.1.0",
     "github:components/jqueryui@1.11.4": {
       "jquery": "github:components/jquery@2.2.0"
+    },
+    "github:davis/plugin-hbs@1.2.1": {
+      "handlebars": "github:components/handlebars.js@4.0.5"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -82,7 +86,7 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.0.2",
       "core-js": "npm:core-js@1.2.6"
     },
-    "npm:babel-runtime@5.8.29": {
+    "npm:babel-runtime@5.8.35": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:core-js@1.2.6": {
