@@ -28,7 +28,7 @@ System.config({
     "jquery-ui": "github:components/jqueryui@1.11.4",
     "json": "github:systemjs/plugin-json@0.1.0",
     "perfect-scrollbar": "npm:perfect-scrollbar@0.6.2",
-    "ponyjs": "github:sergei-maertens/django-ponyjs@0.0.4",
+    "ponyjs": "github:sergei-maertens/django-ponyjs@develop",
     "q": "npm:q@2.0.3",
     "string.prototype.startswith": "npm:string.prototype.startswith@0.2.0",
     "typeahead": "github:twitter/typeahead.js@0.11.1",
@@ -56,15 +56,6 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
-    },
-    "github:sergei-maertens/django-ponyjs@0.0.4": {
-      "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.0.1",
-      "aurelia-pal-browser": "npm:aurelia-pal-browser@1.0.0-beta.1.0.3",
-      "core-js": "npm:core-js@1.2.6",
-      "handlebars": "github:components/handlebars.js@3.0.3",
-      "jquery": "github:components/jquery@2.2.0",
-      "json": "github:systemjs/plugin-json@0.1.0",
-      "url": "github:jspm/nodelibs-url@0.1.0"
     },
     "github:twbs/bootstrap@3.3.5": {
       "jquery": "github:components/jquery@2.2.0"

@@ -44,3 +44,9 @@ if settings.DEBUG:
     urlpatterns += [
         url(r'^404/$', TemplateView.as_view(template_name='404.html')),
     ]
+
+
+# experimental stuff
+urlpatterns += [
+    url(r'^experiments/$', TemplateView.as_view(template_name='ponyjs.html')),
+]
